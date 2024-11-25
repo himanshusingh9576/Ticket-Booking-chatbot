@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #c1f3f5;
+    
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+image{
+    width: 50;
+    height: 50;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}
+
+.chatbot {
+    background-color: #c6c1c1;
+    padding: 1em;
+    border: 20px solid #ddd;
+    box-shadow: 10px 10px 30px;
+    margin-bottom: 2em;
+}
+
+.ticket-booking {
+    background-color: #eeb8b8;
+    padding: 1em;
+    border: 10px solid #ddd;
+    box-shadow: 10px 10px 30px;
+    margin-bottom: 2em;
+}
+
+.payment {
+    background-color: #f8969682;
+    padding: 1em;
+    border: 1px solid #ddd;
+    box-shadow: 10px 10px 20px;
+}
+
+#user-input {
+    width: 100%;
+    padding: 0.5em;
+    font-size: 1em;
+}
+
+#send-btn {
+    background-color: #333;
+    color: #fff;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 0.25em;
+    cursor: pointer;
+}
+
+#send-btn:hover {
+    background-color: blue;
+}
+
+#chatbot-response {
+    padding: 0.5em;
+}
+
+#ticket-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#name, #time-slot {
+    width: 100%;
+    padding: 0.5em;
+    font-size: 1em;
+    margin-bottom: 0.5em;
+}
+
+#book-btn {
+    background-color: rgb(60, 60, 60);
+    color: white;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 0.25em;
+    cursor: pointer;
+}
+
+#book-btn:hover {
+    background-color: blue;
+}
+
+#payment-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#payment-mode {
+    width: 100%;
+    padding: 0.5em;
+    font-size: 1em;
+    margin-bottom: 0.5em;
+}
+
+#pay-btn {
+    background-color: #333;
+    color: white;
+}
+#pay-btn:hover {
+    background-color: blue;
+}
+.state {
+    
+}

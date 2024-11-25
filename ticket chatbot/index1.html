@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Ticket Making System</title>
+    <link rel="stylesheet" href="styles1.css"> 
+</head>
+<body>
+    <header>
+        <h1>Online Ticket Making System</h1>
+    </header>
+    
+    <main>
+        <section class="chatbot">
+            <h2>Chatbot</h2>
+            <input type="text" id="user-input" placeholder="Type a message...">
+            <button id="send-btn">Send</button>
+            <div id="chatbot-response"></div>
+        </section>
+        <section class="ticket-booking">
+            <h2>Book a Ticket</h2>
+            <form id="ticket-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name"><br>
+
+                
+                
+                <label for="State">State:</label>
+                <select name="state" id="state">
+                <option value="Select State">Select State</option>
+                <option value="Bihar">Bihar</option>
+                <option value="Gujrat">Gujrat</option>
+                <option value="Uttar Pradesh">Uttar Pradesh</option>
+                <option value="MP">MP</option>
+                <option value="KERALA">KERALA</option>
+                <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                <option value="Uttarakhand">Uttarakhand</option>
+                <option value="Punjab">Punjab</option>
+                <option value="Chattishgarh">Chattishgarh</option>
+                <option value="Haryana">Haryana</option>
+                <option value="Odisha">Odisha</option>
+                <option value="Delhi">Delhi</option>
+                <option value="West Bengal">West Bengal</option>
+                <option value="Ahmadabad">Ahmadabad</option>
+                <option value="Gujrat">Gujrat</option>
+                <option value="Assam">Assam</option>
+                <option value="Andhra Pradesh">Andhra Pradesh</option>
+                <option value="Mumbai">Mumbai</option>
+                <option value="Goa">Goa</option>
+                <option value="Hyderabad">Hyderabad</option>
+                <option value="Jharkhand">Jharkhand</option>
+                <option value="J&k">J&k</option>
+                <option value="Karnataka">Karnataka</option>
+                <option value="Manipur">Manipur</option>
+                <option value="Meghalaya">Meghalaya</option>
+                <option value="Mizoram">Mizoram</option>
+                <option value="Bangalore">Bangalore</option>
+                <option value="Nagaland">Nagaland</option>
+            </select><br><br>
+                <section class="Museum"></section>
+                <label for="Museum">Museum</label>
+                <select id="museum" name="museum" id="">
+                    <option value="Select Museum">Select Museum</option>
+                    <option value="kolkata museum">Kolkata Museum</option>
+                    <option value="Natonal museum">National Museum Delhi</option>
+                    <option value="Prince of wales Museum,Delhi">Prince of wales Museum,Delhi</option>
+                    <option value="Calico Museum of Textiles,Ahmadabad">Calico Museum of Textiles,Ahmadabad</option>
+                    <option value="Salar Jung Museum, Hyderabad">Salar Jung Museum, Hyderabad</option>
+                    <option value="Government Museum, Chennai">Government Museum, Chennai</option>
+                    <option value="HAL Heritage Centre and Aerospace Museum, Bengaluru">HAL Heritage Centre and Aerospace Museum, Bengaluru</option>
+                    <option value="Darshan Museum">Darshan Museum</option>
+                    <option value="Napier Museum">Napier Museum,Thiruvananthapuram</option>
+                    <option value=" The Partion Museum"> The Partion Museum,Amritsar</option>
+                    <option value="Sarnath Museum">Sarnath Museum,Varanasi</option>
+                    <option value="Patna Museum">Patna Museum, Patna</option>
+                    <option value="Jehangir Art Gallery">Jehangir Art Gallery,Mumbai</option> 
+                </select><br>
+                <br>
+                <label for="time-slot">Time Slot:</label>
+                <select id="time-slot" name="time-slot">
+                    <option value="Select the Time-Slot">Select the Time-Slot</option>
+                    <option value="10 to 12 AM">10 to 12 AM</option>
+                    <option value="12 to 02 PM">12 to 2 PM</option>
+                    <option value="02 to 04 PM">02 to 04 PM</option>
+                    <option value="04 to 06 PM">04 to 06 PM</option>
+                    
+            </select><br>
+           
+            <br>
+                <button id="book-btn">Book Ticket</button>
+            </form>
+        </section>
+        <section class="payment">
+            <h2>Make a Payment</h2>
+            <form id="payment-form">
+                <label for="payment-mode">Payment Mode:</label>
+                <select id="payment-mode" name="payment-mode">
+                    <option value="Select Payment Mode">Select Payment Mode</option>
+                    <option value="Credit Card">Credit Card</option>
+                    <option value="Debit Card">Debit Card</option>
+                    <option value="PayPal">PayPal</option>
+                </select><br><br>
+                <button id="pay-btn">Make Payment</button>
+            </form>
+        </section>
+    </main>
+    <script src="script.js"></script>
+    <script src="server.js"></script>
+    <script src="script2.js"></script>
+</body>
+</html>
